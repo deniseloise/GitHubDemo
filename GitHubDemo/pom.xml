@@ -27,7 +27,7 @@
 				<inherited>true</inherited>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng_jenkinsIntegration.xml</suiteXmlFile>
+						<suiteXmlFile>testng_github.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
