@@ -27,8 +27,11 @@
 				<inherited>true</inherited>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng_github.xml</suiteXmlFile>
+						<suiteXmlFile>${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<executionBrowser>${browser}</executionBrowser>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 
